@@ -25,3 +25,8 @@ Reference the component wherever you need a rating based on stars:
   <show-ratings max="10" v-model="question.value"></show-ratings>
 </div>
 ```
+Props:
+Property | option
+--- | ---
+max| number of stars to show and range of values
+disabled| (true or false) Disables rating for that item e.g. ```<show-ratings max="10" disabled="true" v-model="question.value"></show-ratings> ```
